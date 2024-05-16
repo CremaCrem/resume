@@ -1,0 +1,827 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(119,118,118,0) 49%, rgba(0,0,0,1) 100%);
+    height: 3240;
+}
+
+/* Hero */
+.top{
+    height: 1080px;
+
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-right: 100px;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    
+}
+
+.nav-items a{
+    font-family: 'Nunito';
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+.socials{
+    margin-right: 50px;
+}
+
+.fa-brands.fa-instagram {
+    font-size: 20px;
+    position: absolute;
+    right: 830px;
+    top: 31px;
+}
+
+.fa-brands.fa-facebook{
+    font-size: 20px;
+    position: absolute;
+    right: 725px;
+    top: 31px;
+}
+
+.fa-brands.fa-twitter{
+    font-size: 20px;
+    position: absolute;
+    right: 583px;
+    top: 31px;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+}
+
+.herodiv1{
+    display: flex;
+    flex-direction: column;
+}
+
+.image1{
+    position: absolute;
+    top: 220px; 
+    left: 50%;
+    transform: translateX(-139%);
+    width: 400px;
+    height: auto;
+    z-index: 999;
+    border-radius: 10px;
+    box-shadow: 5px 5px 90px rgba(0, 0, 0, 0.3);
+}
+
+.hero-header {
+    font-size: 200px;
+    margin-bottom: -100px;
+    color: transparent;
+    text-shadow: 0 0 0 white,
+                 0 0 5px white;
+}
+
+.hero-headertop{
+    font-size: 200px;
+    margin-bottom: -100px;
+    z-index: 1000;
+    color: white;
+    
+}
+
+.hero-header3{
+    font-size: 200px;
+    margin-bottom: -100px;
+    background: linear-gradient(to top, gray, white); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+}
+
+.hero-headerbottom {
+    font-size: 200px;
+    margin-bottom: -100px;
+    background: linear-gradient(to top, black, gray); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+
+}
+
+.title1{
+    position: absolute;
+    top: 720px;
+    right: 170px; 
+    color: black; 
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    font-size: 50px;
+}
+
+.title2{
+    font-family: 'Baskervville', sans-serif;
+    position: absolute;
+    top: 120px;
+    right: 120px; 
+    color: white;
+    transform: rotate(-90deg);
+    transform-origin: top right;
+    font-size: 90px;
+}
+
+.hero{
+    margin-bottom: 100px;
+}
+
+.miniaboutme{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: large;
+    position: absolute;
+    width: 450px;
+    top: 620px;
+    left: 200px;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 5px 5px 90px rgba(0, 0, 0, 0.3);
+    border-left: 4px solid black; 
+    border-bottom: 4px solid black;
+    
+}
+
+/* End of Hero */
+
+/* About Me */
+.about{
+    background-color: black;
+    padding-top: 200px;
+    height: 990px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.column-left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+    width: 600px;
+}
+
+.greetingtitle{
+    font-family: 'Baskervville', sans-serif;
+    font-size: 100px;
+}
+
+.aboutme{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.column-right{
+    position: relative;
+    flex-direction: column;
+    color: black;
+    margin: 10px;
+}
+
+.image2{
+    width: 500px;
+    height: auto;
+    z-index: 1;
+    box-shadow: 0px 11px 14px 6px rgba(255,255,255,0.75);
+    -webkit-box-shadow: 0px 11px 14px 6px rgba(255,255,255,0.75);
+    -moz-box-shadow: 0px 11px 14px 6px rgba(255,255,255,0.75);
+    border-color: white;
+}
+
+.contacts{
+    font-family: 'Baskervville', sans-serif;
+    font-size: 40px;
+    margin: 2px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    top: 460px;
+    left: 165px;
+}
+
+.contactlocation{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 2px;
+    position: absolute;
+    top: 505px;
+    left:140px;
+}
+
+.contactemail{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 2px;
+    position: absolute;
+    top: 529px;
+    left: 140px;
+}
+
+.contactnumber{
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    margin: 2px;
+    position: absolute;
+    top: 555px;
+    left: 140px;
+}
+/* End of About Me */
+
+/* Attainments */
+.educational{
+    background-color: white;
+    height: 1080px;
+}
+
+.educational-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.technicalskills{
+    margin-right: 200px;
+    border-left: 4px solid black; 
+    border-top: 4px solid black;
+    width: 700px;
+    height: 450px;
+    padding-top: 20px;
+    padding-left: 50px;
+    box-shadow: -13px -12px 13px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -13px -12px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -13px -12px 13px 0px rgba(0,0,0,0.75);
+}
+
+.tsh2{
+    display: flex;
+
+}
+
+.tsTitle{
+    font-size: 80px;
+    font-family: 'Baskervville', sans-serif;
+    margin-bottom: 30px;
+}
+
+.plts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 300px;
+}
+
+.plts h3 {
+    flex: 1 1 20%;
+    width: 20%;
+    text-align: center;
+    height: 2em;
+    margin-right: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ss{
+    width: 250px;
+    height: auto;
+}
+
+.coding{
+    margin-right: 50px;
+    font-size: 35px;
+    
+}
+
+.software{
+    font-size: 35px;
+}
+
+.ab{
+    border-right: 4px solid black; 
+    border-bottom: 4px solid black;
+    padding-right: 50px;
+    box-shadow: 19px 20px 13px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 19px 20px 13px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 19px 20px 13px -6px rgba(0,0,0,0.75);
+}
+
+.eaTitle{
+    text-align: right;
+    font-size: 80px;
+    font-family: 'Baskervville', sans-serif;
+    margin-bottom: 30px;
+    padding-right: 50px;
+}
+
+.educinfo{
+    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.SY{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.schoolname{
+    font-size: 30px;
+}
+
+.strand{
+    font-size: 25px;
+}
+
+.accolades{
+    text-align: right;
+    font-size: 80px;
+    font-family: 'Baskervville', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.accolade{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    width: 600px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.projects {
+    position: absolute;
+    font-size: 100px;
+    left: 180px;
+    top: 2650px;
+    padding-left: 10px;
+    background: gray;
+    height: 700px;
+    width: 800px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background:rgb(173, 173, 173);
+    box-shadow: 0px 20px 23px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 20px 23px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 20px 23px -2px rgba(0,0,0,0.75);
+}
+
+.projectstitle {
+
+    color: transparent;
+    text-shadow: 0 0 0 black, 
+                 0 0 5px black; 
+}
+
+.pr1{
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.firstprojecttitle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.icon1{
+    width: 64px;
+    height: auto;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+/* End of Attainments */
+
+/* Resume */
+.resume{
+    height: 1920px;
+    display: flex;
+    justify-content: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(27deg, rgba(255,255,255,1) 0%, rgba(139,139,139,0) 66%, rgba(69,69,69,1) 100%);
+}
+
+.resumeTitle{
+    font-family: 'Baskervville', sans-serif;
+    position: absolute;
+    top: 3400px;
+    right: -100px; 
+    color: black;
+    transform: rotate(90deg);
+    transform-origin: top left;
+    font-size: 100px;
+}
+
+.resume-container{
+    display: flex;
+    margin-top: 300px;
+    width: 1200px;
+    height: 1495px;
+    background-color: white;
+    box-shadow: -23px 25px 23px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -23px 25px 23px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -23px 25px 23px 1px rgba(0,0,0,0.75);
+
+}
+
+.leftresumecolumn{
+    background: rgb(245,236,233);
+    background: linear-gradient(180deg, rgba(245,236,233,1) 0%, rgba(139,139,139,0) 66%, rgba(135,129,124,1) 100%);     
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+.resumename{
+    font-family: 'Montserrat';
+    position: absolute;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.resumeimage{
+    width: 500px;
+    height: 620px;
+}
+
+.resumeaboutme{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 3947px;
+    background-color: black;
+    width: 500px;
+    height: 1000px;
+    color: white;
+    clip-path: polygon(0 11%, 100% 0, 100% 100%, 0% 100%);
+}
+
+.aboutmetxt{
+    font-family: 'Montserrat';
+    margin-top: 150px;
+    text-align: left;
+    width: 300px;
+}
+
+.addresstitle{
+    font-size: 19px;
+}
+.atxt{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 19px;
+    text-align: left;
+}
+
+.contactinfos{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.rightresumecolumn{
+    width: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.divider{
+    display: flex;
+    flex-wrap: wrap;
+    border-top-width: 4px;
+    border-top-style: solid;
+    margin-top: 20px;
+    width: 600px;
+}
+
+.resumetxt{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    margin-top: 20px;
+    width: 600px;
+    font-weight: bold;
+}
+
+.header{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight:bold;
+    margin-right: 50px;
+    margin-top: 50px;
+
+}
+
+.header2{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-weight:bold;
+    margin-right: 110px;
+    margin-top: 50px;
+
+}
+
+.text{
+    font-size: 22px;
+    margin-top: 50px;
+    font-family: 'Montserrat';
+}
+
+.tiny-text {
+    font-family: 'Montserrat';
+    font-size: 19px;
+    color: gray;
+    margin-top: 5px;
+    display: block;
+}
+  
+.progress-bar {
+    position: relative;
+    width: 420px; 
+    height: 20px; 
+    margin-top: 20px;
+}
+  
+.progress-bar1 {
+    position: relative;
+    width: 330px; 
+    height: 20px; 
+    margin-top: 20px;
+}
+
+.progress-bar2 {
+    position: relative;
+    width: 300px; 
+    height: 20px; 
+    margin-top: 20px;
+}
+
+.progress-bar3 {
+    position: relative;
+    width: 430px; 
+    height: 20px; 
+    margin-top: 20px;
+}
+
+.progress-bar4 {
+    position: relative;
+    width: 460px; 
+    height: 20px; 
+    margin-top: 20px;
+}
+
+.progress-bar5 {
+    position: relative;
+    width: 460px; 
+    height: 20px; 
+    margin-top: 20px;
+}
+
+.progress-bar6 {
+    position: relative;
+    width: 200px; 
+    height: 20px; 
+    margin-top: 20px;
+} 
+
+.background-bar {
+    position: absolute;
+    top: 0;
+    left: 140px;
+    width: 460px;
+    height: 100%;
+    background-color: #ddd; 
+}
+  
+.label {
+    font-family: 'Montserrat';
+    font-size: 23px;
+    color: black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 5px;
+    z-index: 1000;
+}
+  
+.progress-inner {
+    position: absolute;
+    top: 0;
+    left: 140px;
+    width: 90%;
+    height: 100%;
+    background-color: #404041; 
+}
+  
+.personinfo {
+    font-family: 'Montserrat';
+    margin-top: 50px;
+    width: 500px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+
+/* End of Resume */
+
+
+@media (max-width: 1500px) {
+    .miniaboutme {
+        width: 20%;
+        max-width: 500px;
+        height: 25%;
+        top: 80%;
+        left: 3%; 
+    }
+
+    .educational{
+        background-color: white;
+        height: 1080px;
+    }
+    
+    .educational-container{
+        display: flex;
+        justify-content: center;
+        padding-top: 90px;
+    }
+    
+    .technicalskills{
+        margin-right: 100px;
+        border-left: 4px solid black; 
+        border-top: 4px solid black;
+        width: 700px;
+        height: 450px;
+        padding-top: 20px;
+        padding-left: 50px;
+        box-shadow: -13px -12px 13px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -13px -12px 13px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -13px -12px 13px 0px rgba(0,0,0,0.75);
+    }
+    
+    .tsh2{
+        display: flex;
+    
+    }
+    
+    .tsTitle{
+        font-size: 80px;
+        font-family: 'Baskervville', sans-serif;
+        margin-bottom: 30px;
+    }
+    
+    .plts {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+        width: 300px;
+    }
+    
+    .plts h3 {
+        flex: 1 1 20%;
+        width: 20%;
+        text-align: center;
+        height: 2em;
+        margin-right: 50px;
+        margin-top: 10px;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .ss{
+        width: 250px;
+        height: auto;
+    }
+    
+    .coding{
+        margin-right: 50px;
+        font-size: 35px;
+        
+    }
+    
+    .software{
+        font-size: 35px;
+    }
+    
+    .ab{
+        border-right: 4px solid black; 
+        border-bottom: 4px solid black;
+        padding-right: 50px;
+        box-shadow: 19px 20px 13px -6px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 19px 20px 13px -6px rgba(0,0,0,0.75);
+        -moz-box-shadow: 19px 20px 13px -6px rgba(0,0,0,0.75);
+    }
+    
+    .eaTitle{
+        text-align: right;
+        font-size: 80px;
+        font-family: 'Baskervville', sans-serif;
+        margin-bottom: 30px;
+        padding-right: 50px;
+    }
+    
+    .educinfo{
+        font-family: 'Montserrat', sans-serif;
+        text-align: right;
+        padding-right: 50px;
+    }
+    
+    .SY{
+        font-size: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .schoolname{
+        font-size: 30px;
+    }
+    
+    .strand{
+        font-size: 25px;
+    }
+    
+    .accolades{
+        text-align: right;
+        font-size: 80px;
+        font-family: 'Baskervville', sans-serif;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    
+    }
+    
+    .accolade{
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        width: 600px;
+        text-align: right;
+        margin-bottom: 20px;
+    }
+    
+    .projects {
+        position: absolute;
+        font-size: 90px;
+        left: 30px;
+        top: 2650px;
+        padding-left: 10px;
+        background: gray;
+        height: 600px;
+        width: 700px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%;
+        background:rgb(173, 173, 173);
+        box-shadow: 0px 20px 23px -2px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 20px 23px -2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 20px 23px -2px rgba(0,0,0,0.75);
+    }
+
+    .resumeTitle{
+        font-family: 'Baskervville', sans-serif;
+        position: absolute;
+        top: 3400px;
+        right: -330px; 
+        color: black;
+        transform: rotate(90deg);
+        transform-origin: top left;
+        font-size: 100px;
+    }
+}
